@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+  }
+
+  #main {
+    display: flex;
+    height: 100vh;
+  }
+
+  .sidebar {
+    flex: 0 0 20%;
+    background-color: #29282c;
+    color: #ecf0f1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+
+  .sidebar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 2;
+    transition: color 0.3s;
+  }
+
+  .sidebar a:hover {
+    color: grey;
+  }
+
+  .main-content {
+    flex: 1;
+    background-color: #ecf0f1;
+    box-sizing: border-box;
+  }
+
+  .main-header {
+    height: 50px;
+    background-color: #898989;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Hide the vertical line */
+  /* #main::before {
+    content: '';
+    width: 1px;
+    background-color: #ecf0f1;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 30%; /* Adjust to match the sidebar width 
+  } */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .login-box {
+    background-color: #3498db;
+    background-color: #a3a3a3;    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .login-box h2 {
+    /* color: #333; */
+    color: #fff;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+    /* color: #555; */
+    color: #fff;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .login-btn {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .login-btn:hover {
+    background-color: #27ae60;
+  }
+
+  .panel {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .add-btn {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .add-btn:hover {
+    background-color: #219a52;
+  }
