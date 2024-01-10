@@ -151,3 +151,37 @@ body {
   .add-btn:hover {
     background-color: #219a52;
   }
+
+
+  .totp-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 10px;
+  }
+
+  .totp-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .totp-box:hover {
+    transform: translateY(-5px);
+  }
+
+  .totp-code {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+  }
+
+  .totp-app {
+    font-size: 18px;
+    color: #555;
+  }
