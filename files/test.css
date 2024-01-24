@@ -1,187 +1,186 @@
 body {
-    margin: 0;
-    font-family: "Nunito", sans-serif;
-  }
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
 
-  #main {
-    display: flex;
-    height: 100vh;
-  }
+#main {
+  display: flex;
+  height: 100vh;
+}
 
-  .sidebar {
-    flex: 0 0 20%;
-    background-color: #29282c;
-    color: #ecf0f1;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
-  }
+.sidebar {
+  flex: 0 0 20%;
+  background-color: #29282c;
+  color: #ecf0f1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
 
-  .sidebar h2 {
-    color: white;
-    margin-bottom: 20px;
-  }
+.sidebar h2 {
+  color: white;
+  margin-bottom: 40px;
+}
 
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
 
-  .sidebar li {
-    margin-bottom: 10px;
-  }
+.sidebar li {
+  margin-bottom: 10px;
+}
 
-  .sidebar a {
-    color: #ecf0f1;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 2;
-    transition: color 0.3s;
-  }
+.sidebar a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 2;
+  transition: color 0.3s;
+}
 
-  .sidebar a:hover {
-    color: grey;
-  }
+.sidebar a:hover {
+  color: grey;
+}
 
-  .main-content {
-    flex: 1;
-    background-color: #ecf0f1;
-    box-sizing: border-box;
-  }
+.main-content {
+  flex: 1;
+  background-color: #ecf0f1;
+  box-sizing: border-box;
+}
 
-  .main-header {
-    height: 50px;
-    background-color: #898989;
-    color: #ecf0f1;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.main-header {
+  height: 50px;
+  background-color: #898989;
+  color: #ecf0f1;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  /* Hide the vertical line */
-  /* #main::before {
-    content: '';
-    width: 1px;
-    background-color: #ecf0f1;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 30%; /* Adjust to match the sidebar width 
-  } */
-  .add-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-  }
+/* Hide the vertical line */
+/* #main::before {
+  content: '';
+  width: 1px;
+  background-color: #ecf0f1;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 30%; /* Adjust to match the sidebar width 
+} */
+.add-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
 
-  .add-box {
-    background-color: #3498db;
-    background-color: #a3a3a3;    
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-  }
+.add-box {
+  background-color: #a3a3a3;    
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
 
-  .add-box h2 {
-    /* color: #333; */
-    color: #fff;
-  }
+.add-box h2 {
+  /* color: #333; */
+  color: #fff;
+}
 
-  .form-group {
-    margin-bottom: 20px;
-  }
+.form-group {
+  margin-bottom: 20px;
+}
 
-  .form-group label {
-    font-size: 14px;
-    /* color: #555; */
-    color: #fff;
-  }
+.form-group label {
+  font-size: 14px;
+  /* color: #555; */
+  color: #fff;
+}
 
-  .form-group input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    margin-top: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-  .add-otp-btn {
-    background-color: #27ae60;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
+.add-otp-btn {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-  .add-otp-btn:hover {
-    background-color: #27ae60;
-  }
+.add-otp-btn:hover {
+  background-color: #27ae60;
+}
 
-  .panel {
-    background-color: #3498db;
-    color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 20px;
-    text-align: center;
-  }
+.panel {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
 
-  .add-btn {
-    background-color: #27ae60;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-  }
+.add-btn {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
 
-  .add-btn:hover {
-    background-color: #219a52;
-  }
+.add-btn:hover {
+  background-color: #219a52;
+}
 
 
-  .totp-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding-left: 10px;
-  }
+.totp-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
 
-  .totp-box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    width: 300px;
-    text-align: center;
-    transition: transform 0.2s;
-  }
+.totp-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 87%;
+  text-align: center;
+  transition: transform 0.2s;
+}
 
-  .totp-box:hover {
-    transform: translateY(-5px);
-  }
+.totp-box:hover {
+  transform: translateY(-5px);
+}
 
-  .totp-code {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 20px 0;
-    color: #333;
-  }
+.totp-code {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
 
-  .totp-app {
-    font-size: 18px;
-    color: #555;
-  }
+.totp-app {
+  font-size: 18px;
+  color: #555;
+}
